@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8d300;
+    color: #333;
+}
+header {
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 2em 0;
+}
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+section {
+    margin: 2em;
+    padding: 2em;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+h2 {
+    color: #000000;
+}
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.project {
+    background-color: #fdfffe;
+    padding: 1em;
+    border-radius: 8px;
+    width: calc(33% - 2em);
+}
+@media (max-width: 768px) {
+    .project {
+        width: 100%;
+    }
+}
